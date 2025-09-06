@@ -1,6 +1,6 @@
--- Super Hub Loader
+-- Super Hub Delta Loader
 pcall(function()
-    local url = "https://raw.githubusercontent.com/reighnormanblessfrancist-boop/SuperHub/main/SuperHub.lua"
+    local url = "https://raw.githubusercontent.com/reighnormanblessfrancist-boop/SuperHub/main/SuperHub.lua" -- raw GitHub link
     local code = game:HttpGet(url)
     loadstring(code)()
 
